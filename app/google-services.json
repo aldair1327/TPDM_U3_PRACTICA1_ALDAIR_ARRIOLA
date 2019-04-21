@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "635063002543",
+    "firebase_url": "https://tpdmu3proyecto2-a3085.firebaseio.com",
+    "project_id": "tpdmu3proyecto2-a3085",
+    "storage_bucket": "tpdmu3proyecto2-a3085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635063002543:android:65aa34f17d55f3d5",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.aldairarriola.tpdm_u3_practica1_aldair_arriola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635063002543-jj91jp1i0jj0oqhvofn8fmod2ijjt8uu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2w8Wur3kaSYURXvb4jmhMy2dACf0I4TI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635063002543-jj91jp1i0jj0oqhvofn8fmod2ijjt8uu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

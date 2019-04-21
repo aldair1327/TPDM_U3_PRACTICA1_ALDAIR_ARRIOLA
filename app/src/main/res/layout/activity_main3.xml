@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/idlocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IDlocal"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/domiciliolocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Domicilio"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/domitel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/domienc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Encargado"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insertar" />
+
+    <Button
+        android:id="@+id/eli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eliminar" />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consultar" />
+
+    <Button
+        android:id="@+id/act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="actualizar" />
+
+    <ListView
+        android:id="@+id/listalocal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

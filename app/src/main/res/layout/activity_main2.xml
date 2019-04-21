@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+        android:id="@+id/empleadoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IDempleado"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/empleadonombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/empleadorfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RFC"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/empleadoedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/empinsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insertar" />
+
+    <Button
+        android:id="@+id/empeliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eliminar" />
+
+    <Button
+        android:id="@+id/empconsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consultar" />
+
+    <Button
+        android:id="@+id/empactualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="actualizar" />
+
+    <ListView
+        android:id="@+id/listaemp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
